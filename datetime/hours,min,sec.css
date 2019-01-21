@@ -1,0 +1,44 @@
+@charset "utf-8";
+#Date { 
+	font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif; 
+	font-size:17px;
+	font-weight:bold;
+	color:#9c0!important;
+	text-align:center;
+		text-shadow:0 0 0px !important;
+}
+.ul { 
+	width:; 
+	margin:0 auto; 
+	padding:0px;
+	list-style:none; 
+	text-align:center; 
+}
+.ul .li { 
+	display:inline;
+	font-weight:bold;
+	font-size:16px!important;
+	color:#000!important;
+	text-align:center; 
+	font-family:'BebasNeueRegular',Arial, Helvetica, sans-serif; 
+	text-shadow:0 0 0px !important;
+}
+#point { 
+	position:relative; 
+	-moz-animation:mymove 1s ease infinite; 
+	-webkit-animation:mymove 1s ease infinite;
+	border-radius:100%; 
+	padding-left:; 
+	padding-right:; 
+}
+@-webkit-keyframes mymove {
+	0% {opacity:1.0; text-shadow:0 0 20px #fff !important;}
+	50% {opacity:0; text-shadow:none; }
+	100% {opacity:1.0; text-shadow:0 0 20px #fff !important; }	
+}
+@-moz-keyframes mymove {
+	0% {opacity:1.0; text-shadow:0 0 20px #fff !important;}
+	50% {opacity:0; text-shadow:none; }
+	100% {opacity:1.0; text-shadow:0 0 20px #fff !important; }	
+}
+
